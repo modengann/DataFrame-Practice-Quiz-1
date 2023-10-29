@@ -9,7 +9,7 @@ def get_third_name(df):
 def get_carol_deets(df):
     pass
 
-def get_name_and_occupation(df):
+def get_salary_and_occupation(df):
     pass
 
 def get_age_salary_of_first_two(df):
@@ -24,6 +24,7 @@ def get_occupation_bob_eve(df):
 def main():
     df = pd.read_csv("data.csv", index_col = 0)
     print(df)
+    
     print("****************")
     print(get_age(df))
     
