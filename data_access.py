@@ -35,7 +35,7 @@ def main():
     print(get_carol_deets(df))
     
     print("****************")
-    print(get_name_and_occupation(df))
+    print(get_salary_and_occupation(df))
     
     print("****************")
     print(get_age_salary_of_first_two(df))
